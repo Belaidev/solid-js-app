@@ -1,0 +1,23 @@
+/* || Imports */
+
+@import './styles/fonts.css';
+@import './styles/misc.css';
+
+/* || @tailwind directives */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* || Base layer */
+
+@layer base {
+	html {
+		font-family: 'Noto Sans Display', 'Noto Color Emoji', sans-serif;
+		tab-size: 2;
+	}
+	code {
+		font-family: 'Noto Sans Mono', monospace;
+	}
+}

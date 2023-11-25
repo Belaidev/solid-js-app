@@ -1,0 +1,9 @@
+/* || Base styles */
+
+* {
+	@apply scroll-smooth;
+}
+
+#root {
+	@apply flex min-h-[100dvh] min-w-[100dvw] flex-col items-center justify-center bg-blue-50;
+}
